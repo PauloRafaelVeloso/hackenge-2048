@@ -1,0 +1,40 @@
+@import "./styles/index.less";
+
+.App {
+  max-width: @pixel-size * 60;
+  margin: @pixel-size * 0 auto;
+
+  .header {
+    display: flex;
+    width: 100%;
+
+    > div {
+      flex: 1;
+    }
+
+    .button {
+      float: right;
+      margin: @pixel-size * 3.25 @pixel-size * 0;
+      cursor: pointer;
+    }
+  }
+
+  .footer {
+    margin: @pixel-size * 3 @pixel-size * 0;
+    font-weight: bold;
+    text-align: center;
+    .score {
+      float: left;
+      text-align: left;
+    }
+    .moves {
+      float: right;
+      text-align: right;
+    }
+    .bestscore{
+      float: center;
+      text-align: center;
+    }
+  }
+  
+}
