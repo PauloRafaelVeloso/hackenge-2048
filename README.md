@@ -6,5 +6,3 @@
   <li> Dandália Luiza</li>
   <li> João Victor Pereira</li>
 </ul>
-
-<a href="">Artigo no Medium</a>
